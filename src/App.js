@@ -1,10 +1,9 @@
-import Child from './child'
 import './App.css'
+import Router from './router/router'
 
 function App(){
   return <div>
-    app
-    <Child/>
+    <Router></Router>
     </div>
 }
 
